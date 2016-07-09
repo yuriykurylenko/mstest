@@ -26,6 +26,7 @@ function TinyHeap(N) {
       }
       
       if (availableCount == bytes) {
+        // Replacing part of the array, staring from index (i - bytes + 1) with array of 1's of length (bytes).
         Array.prototype.splice.apply(this.heap, [i - bytes + 1, bytes].concat(Array(bytes).fill(1)));
       }
             
