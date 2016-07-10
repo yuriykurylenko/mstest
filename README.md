@@ -28,4 +28,4 @@ The class TinyHeap is implemented as a constructor function, and emulates a heap
 Instance of the class is initialized with the parameter *N*, which represents the length of the heap. As part of the solution, *allocateTinyHeap(), deleteTinyHeap(), tinyAlloc(), and tinyFree()* methods were imptemented.
 All the test cases can be found in *TinyHeap.tests.js*.
 
-Solutions tested in Google Chrome v. 51.0.2704.103 and Mozzila Firefox v. 45.0.1 on OSX El Capitan.
+Solutions tested in *Google Chrome v. 51.0.2704.103* and *Mozzila Firefox v. 45.0.1* on *OSX El Capitan*.
